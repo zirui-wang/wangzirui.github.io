@@ -1,0 +1,10 @@
+.icon-style {
+  display: inline-block;
+  list-style: none;
+  margin: 8px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}

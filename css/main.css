@@ -4,3 +4,15 @@
   height: 100%;
   width: 100%;
 }
+
+.navigation-box {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.bold {
+  font-weight: 700;
+}
