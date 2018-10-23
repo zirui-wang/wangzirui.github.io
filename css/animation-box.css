@@ -1,0 +1,40 @@
+.animation-box {
+  font-family: 'Open Sans', sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+ul,
+li {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+#text-line-box {
+  position: sticky;
+  height: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#loop-show-box {
+  font-weight: 700;
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.li-style {
+  width: 100%;
+  height: 100%;
+}
