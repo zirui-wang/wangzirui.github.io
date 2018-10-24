@@ -1,3 +1,7 @@
+.canvas-box {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
 .content-box {
   display: table;
   position: absolute;
@@ -9,10 +13,20 @@
   position: absolute;
   width: 100%;
   text-align: center;
-  padding-top: 20px;
+  padding: 5px 0px 10px 0px;
   z-index: 1;
 }
 
 .bold {
   font-weight: 700;
+}
+
+.footer-box {
+  font-size: 12px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 1;
+  width: 150px;
+  margin-left: -75px;
 }
