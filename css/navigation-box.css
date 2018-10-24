@@ -22,6 +22,10 @@
   background-image: url('../assets/icon/aboutme.svg');
 }
 
+#icon-instagram {
+  background-image: url('../assets/icon/instagram.svg');
+}
+
 #icon-send {
   background-image: url('../assets/icon/send.svg');
 }
@@ -36,6 +40,10 @@
 
 #icon-aboutme:hover {
   background-image: url('../assets/icon/aboutme-invert.svg');
+}
+
+#icon-instagram:hover {
+  background-image: url('../assets/icon/instagram-invert.svg');
 }
 
 #icon-send:hover {
