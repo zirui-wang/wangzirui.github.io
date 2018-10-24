@@ -1,10 +1,54 @@
 .icon-style {
   display: inline-block;
   list-style: none;
-  margin: 8px;
+  margin: 0px 8px 0px 8px;
 }
 
 .icon {
+  background-size: 30px 30px;
   height: 30px;
   width: 30px;
+}
+
+#icon-github {
+  background-image: url('../assets/icon/github.svg');
+}
+
+#icon-linkedin {
+  background-image: url('../assets/icon/linkedin.svg');
+}
+
+#icon-aboutme {
+  background-image: url('../assets/icon/aboutme.svg');
+}
+
+#icon-send {
+  background-image: url('../assets/icon/send.svg');
+}
+
+#icon-github:hover {
+  background-image: url('../assets/icon/github-invert.svg');
+}
+
+#icon-linkedin:hover {
+  background-image: url('../assets/icon/linkedin-invert.svg');
+}
+
+#icon-aboutme:hover {
+  background-image: url('../assets/icon/aboutme-invert.svg');
+}
+
+#icon-send:hover {
+  background-image: url('../assets/icon/send-invert.svg');
+}
+
+.invert {
+  position: absolute;
+}
+
+.breakline {
+  margin: 5px 100px 0px 100px;
+  border-width: 0px 0px 1px 0px;
+  border-color: rgba(0,0,0,.1);
+  border-style: solid;
 }
