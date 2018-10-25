@@ -1,5 +1,11 @@
-.typed-content {
-  display: inline;
+.typed-box {
+  width: 374px;
+  margin: auto;
+}
+
+.typed-content span {
+  float: left;
+  left: 0px;
 }
 
 .typed-cursor {
