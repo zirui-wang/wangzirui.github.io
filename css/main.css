@@ -1,32 +1,54 @@
-.canvas-box {
+/* General Settings */
+
+html {
+  overflow-x: hidden;
+}
+
+body {
   font-family: 'Chakra Petch', sans-serif;
-}
-
-.content-box {
-  display: table;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-
-.navigation-box {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  padding: 5px 0px 10px 0px;
-  z-index: 1;
+  margin: 0px 0px 0px 0px;
 }
 
 .bold {
   font-weight: 700;
 }
 
-.footer-box {
-  font-size: 12px;
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
+/* Boxes Settings */
+
+.canvas-box {
+  vertical-align: baseline;
+}
+
+.content-box {
+  display: table;
+  height: 920px;
+  width: 100%;
+}
+
+.intro-box {
+  height: 1200px;
+  width: 100%;
+  background-color: black;
+}
+
+.header-box {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  margin-top: 0px;
   z-index: 1;
-  width: 150px;
-  margin-left: -75px;
+}
+
+.footer-box {
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  z-index: 1;
 }
