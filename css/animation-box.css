@@ -1,7 +1,5 @@
-.animation-box {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+.typed-box {
+  padding-bottom: 300px;
 }
 
 ul,

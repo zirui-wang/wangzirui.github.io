@@ -1,32 +1,77 @@
-.canvas-box {
-  font-family: 'Chakra Petch', sans-serif;
-}
-
-.content-box {
-  display: table;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-
-.navigation-box {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  padding: 5px 0px 10px 0px;
-  z-index: 1;
+/* General Settings */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Chakra Petch', sans-serif;  
+  overflow: hidden;
 }
 
 .bold {
   font-weight: 700;
 }
 
-.footer-box {
-  font-size: 12px;
+.white {
+  /* color: white; */
+  color: rgb(40, 40, 40);
+  background-color: white;
+  /* background-color: rgb(30, 30, 30); */
+  /* background-color: rgb(206, 225, 255); */
+}
+
+/* Boxes Settings */
+
+.canvas-box {
+  height: 100vh;
+  overflow-x: hidden;
+  perspective: 2px;
+}
+
+.section {
+  height: 100vh;
+  
+  /* For text formatting. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax::after {
+  /* Display and position the pseudo-element */
+  content: " ";
   position: absolute;
-  bottom: 10px;
-  left: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  transform: translateZ(-1px) scale(1.6);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.animation-box:after {
+  background-image: url('../assets/res/background.jpg');
+  background-repeat: no-repeat;
+  background-position-y: 0%;
+}
+
+.header-box {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px 5px 0px;
+  margin-top: 0px;
+}
+
+.footer-box {
+  bottom: 0px;
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
   z-index: 1;
-  width: 150px;
-  margin-left: -75px;
 }
