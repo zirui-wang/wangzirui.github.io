@@ -1,5 +1,7 @@
 .intro-content {
   margin: auto;
+  width: 40%;
+  max-width: 500px;
 }
 
 #intro-profile-col {
@@ -8,16 +10,17 @@
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  margin: 80px auto 60px;
+  margin: 0px auto 40px;
 }
 
 #intro-text-col {
+  margin: auto;
   text-align: center;
-  width: 500px;
 }
 
 #intro-text-col p {
   margin: 0px 0px 20px 0px;
+  max-width: 500px;
 }
 
 #intro-resume {

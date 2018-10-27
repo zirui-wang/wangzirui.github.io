@@ -12,11 +12,8 @@ html {
 }
 
 .white {
-  /* color: white; */
   color: rgb(40, 40, 40);
   background-color: white;
-  /* background-color: rgb(30, 30, 30); */
-  /* background-color: rgb(206, 225, 255); */
 }
 
 /* Boxes Settings */
@@ -53,7 +50,8 @@ html {
 .animation-box:after {
   background-image: url('../assets/res/background.jpg');
   background-repeat: no-repeat;
-  background-position-y: 0%;
+  background-size: cover;
+  background-position: center;
 }
 
 .header-box {
