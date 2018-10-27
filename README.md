@@ -1,10 +1,10 @@
 # zirui.io
 
-Just my personal website.
+Personal website. Forever under construction.
 
 ## Libraries Used
 
-1. [typed.js](https://github.com/mattboldt/typed.js/) – By @mattboldt
+[typed.js](https://github.com/mattboldt/typed.js/) – By @mattboldt
 
 ## License
 

@@ -1,21 +1,45 @@
+.intro-content {
+  margin: auto;
+}
+
 #intro-profile-col {
   background-image: url('../assets/res/profile.jpg');
-  background-size: 200px 200px;
+  background-size: 150px 150px;
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  margin-top: 150px;
-  position: absolute;
-  left: 200px;
+  width: 150px;
+  height: 150px;
+  margin: 80px auto 60px;
 }
 
 #intro-text-col {
-  position: absolute;
-  margin-top: 150px;
-  right: 150px;
-  width: 450px;
+  text-align: center;
+  width: 500px;
 }
 
 #intro-text-col p {
   margin: 0px 0px 20px 0px;
+}
+
+#intro-resume {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#intro-resume a {
+  text-decoration: none;
+}
+
+#intro-resume a:link {
+  color: none;
+  text-decoration: none;
+}
+
+#intro-resume a:active {
+  color: none;
+  text-decoration: none;
+}
+
+#intro-resume a:visited {
+  color: none;
+  text-decoration: none;
 }

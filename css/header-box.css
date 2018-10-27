@@ -53,10 +53,3 @@
 .invert {
   position: absolute;
 }
-
-.breakline {
-  margin: 5px 100px 0px 100px;
-  border-width: 0px 0px 1px 0px;
-  border-color: rgba(0,0,0,.1);
-  border-style: solid;
-}
