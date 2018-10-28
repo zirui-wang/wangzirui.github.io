@@ -20,6 +20,8 @@
 
 #icon-aboutme {
   background-image: url('../assets/icon/aboutme.svg');
+  -webkit-animation: blink 2s infinite;
+  -moz-animation: blink 2s infinite;
 }
 
 #icon-instagram {

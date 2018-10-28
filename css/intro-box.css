@@ -29,20 +29,27 @@
 }
 
 #intro-resume a {
+  color: ;
   text-decoration: none;
 }
 
 #intro-resume a:link {
-  color: none;
+  color: inherit;
   text-decoration: none;
 }
 
 #intro-resume a:active {
-  color: none;
+  color: inherit;
   text-decoration: none;
 }
 
 #intro-resume a:visited {
-  color: none;
+  color: inherit;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 620px) {
+  .intro-content {
+    width: 80%;
+  }
 }
